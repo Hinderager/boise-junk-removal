@@ -19,6 +19,8 @@ const services = [
   { name: 'Garage Cleanout', href: '/cities-served/garden-city/garage-cleanout' },
   { name: 'Yard Waste', href: '/cities-served/garden-city/yard-waste' },
   { name: 'Hot Tub Removal', href: '/cities-served/garden-city/hot-tub-removal' },
+  { name: 'Office Cleanout', href: '/cities-served/garden-city/office-cleanout' },
+  { name: 'Estate Cleanout', href: '/cities-served/garden-city/estate-cleanout' },
 ]
 
 export default function GardenCityPage() {

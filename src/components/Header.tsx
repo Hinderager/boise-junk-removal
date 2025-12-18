@@ -14,6 +14,7 @@ const serviceCategories = [
       { name: 'Garage Cleanout', href: '/services/residential/garage-cleanout' },
       { name: 'Basement Cleanout', href: '/services/residential/basement-cleanout' },
       { name: 'Attic Cleanout', href: '/services/residential/attic-cleanout' },
+      { name: 'Storage Unit Cleanout', href: '/services/residential/storage-unit-cleanout' },
     ]
   },
   {
@@ -21,6 +22,7 @@ const serviceCategories = [
     href: '/services/commercial',
     services: [
       { name: 'Office Cleanout', href: '/services/commercial/office-cleanout' },
+      { name: 'Restaurant Cleanout', href: '/services/commercial/restaurant-cleanout' },
       { name: 'Retail Cleanout', href: '/services/commercial/retail-cleanout' },
       { name: 'Warehouse Cleanout', href: '/services/commercial/warehouse-cleanout' },
     ]
@@ -30,24 +32,41 @@ const serviceCategories = [
     href: '/services/furniture-removal',
     services: [
       { name: 'Couch Removal', href: '/services/furniture-removal/couch-removal' },
+      { name: 'Desk Removal', href: '/services/furniture-removal/desk-removal' },
       { name: 'Mattress Removal', href: '/services/furniture-removal/mattress-removal' },
+      { name: 'Outdoor Furniture', href: '/services/furniture-removal/outdoor-furniture' },
     ]
   },
   {
     name: 'Appliance Removal',
     href: '/services/appliance-removal',
     services: [
+      { name: 'Dishwasher Removal', href: '/services/appliance-removal/dishwasher-removal' },
       { name: 'Refrigerator Removal', href: '/services/appliance-removal/refrigerator-removal' },
+      { name: 'Stove Removal', href: '/services/appliance-removal/stove-removal' },
       { name: 'Washer & Dryer', href: '/services/appliance-removal/washer-dryer-removal' },
+      { name: 'Water Heater Removal', href: '/services/appliance-removal/water-heater-removal' },
     ]
   },
   {
-    name: 'Specialty',
+    name: 'Specialty Services',
     href: '/services/specialty',
     services: [
       { name: 'Hot Tub Removal', href: '/services/specialty/hot-tub-removal' },
       { name: 'Piano Removal', href: '/services/specialty/piano-removal' },
-      { name: 'Exercise Equipment', href: '/services/specialty/treadmill-removal' },
+      { name: 'Tire Removal', href: '/services/specialty/tire-removal' },
+      { name: 'Treadmill Removal', href: '/services/specialty/treadmill-removal' },
+      { name: 'TV Removal', href: '/services/specialty/tv-removal' },
+    ]
+  },
+  {
+    name: 'Yard Waste',
+    href: '/services/yard-waste',
+    services: [
+      { name: 'Brush Removal', href: '/services/yard-waste/brush-removal' },
+      { name: 'Dirt & Gravel', href: '/services/yard-waste/dirt-gravel' },
+      { name: 'Lawn Debris', href: '/services/yard-waste/lawn-debris' },
+      { name: 'Shed Removal', href: '/services/yard-waste/shed-removal' },
     ]
   },
 ]

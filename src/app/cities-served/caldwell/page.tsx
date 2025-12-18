@@ -19,6 +19,8 @@ const services = [
   { name: 'Garage Cleanout', href: '/cities-served/caldwell/garage-cleanout' },
   { name: 'Yard Waste', href: '/cities-served/caldwell/yard-waste' },
   { name: 'Hot Tub Removal', href: '/cities-served/caldwell/hot-tub-removal' },
+  { name: 'Office Cleanout', href: '/cities-served/caldwell/office-cleanout' },
+  { name: 'Estate Cleanout', href: '/cities-served/caldwell/estate-cleanout' },
 ]
 
 export default function CaldwellPage() {

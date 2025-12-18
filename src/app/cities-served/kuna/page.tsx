@@ -19,6 +19,8 @@ const services = [
   { name: 'Garage Cleanout', href: '/cities-served/kuna/garage-cleanout' },
   { name: 'Yard Waste', href: '/cities-served/kuna/yard-waste' },
   { name: 'Hot Tub Removal', href: '/cities-served/kuna/hot-tub-removal' },
+  { name: 'Office Cleanout', href: '/cities-served/kuna/office-cleanout' },
+  { name: 'Estate Cleanout', href: '/cities-served/kuna/estate-cleanout' },
 ]
 
 export default function KunaPage() {

@@ -19,6 +19,8 @@ const services = [
   { name: 'Garage Cleanout', href: '/cities-served/star/garage-cleanout' },
   { name: 'Yard Waste', href: '/cities-served/star/yard-waste' },
   { name: 'Hot Tub Removal', href: '/cities-served/star/hot-tub-removal' },
+  { name: 'Office Cleanout', href: '/cities-served/star/office-cleanout' },
+  { name: 'Estate Cleanout', href: '/cities-served/star/estate-cleanout' },
 ]
 
 export default function StarPage() {

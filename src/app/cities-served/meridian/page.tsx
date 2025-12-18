@@ -19,6 +19,8 @@ const services = [
   { name: 'Garage Cleanout', href: '/cities-served/meridian/garage-cleanout' },
   { name: 'Yard Waste', href: '/cities-served/meridian/yard-waste' },
   { name: 'Hot Tub Removal', href: '/cities-served/meridian/hot-tub-removal' },
+  { name: 'Office Cleanout', href: '/cities-served/meridian/office-cleanout' },
+  { name: 'Estate Cleanout', href: '/cities-served/meridian/estate-cleanout' },
 ]
 
 export default function MeridianPage() {

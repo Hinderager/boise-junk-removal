@@ -19,6 +19,8 @@ const services = [
   { name: 'Garage Cleanout', href: '/cities-served/nampa/garage-cleanout' },
   { name: 'Yard Waste', href: '/cities-served/nampa/yard-waste' },
   { name: 'Hot Tub Removal', href: '/cities-served/nampa/hot-tub-removal' },
+  { name: 'Office Cleanout', href: '/cities-served/nampa/office-cleanout' },
+  { name: 'Estate Cleanout', href: '/cities-served/nampa/estate-cleanout' },
 ]
 
 export default function NampaPage() {

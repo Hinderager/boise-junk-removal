@@ -19,6 +19,8 @@ const services = [
   { name: 'Garage Cleanout', href: '/cities-served/eagle/garage-cleanout' },
   { name: 'Yard Waste', href: '/cities-served/eagle/yard-waste' },
   { name: 'Hot Tub Removal', href: '/cities-served/eagle/hot-tub-removal' },
+  { name: 'Office Cleanout', href: '/cities-served/eagle/office-cleanout' },
+  { name: 'Estate Cleanout', href: '/cities-served/eagle/estate-cleanout' },
 ]
 
 export default function EaglePage() {

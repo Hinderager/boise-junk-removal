@@ -19,6 +19,8 @@ const services = [
   { name: 'Garage Cleanout', href: '/cities-served/middleton/garage-cleanout' },
   { name: 'Yard Waste', href: '/cities-served/middleton/yard-waste' },
   { name: 'Hot Tub Removal', href: '/cities-served/middleton/hot-tub-removal' },
+  { name: 'Office Cleanout', href: '/cities-served/middleton/office-cleanout' },
+  { name: 'Estate Cleanout', href: '/cities-served/middleton/estate-cleanout' },
 ]
 
 export default function MiddletonPage() {

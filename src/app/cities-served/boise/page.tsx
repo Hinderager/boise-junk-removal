@@ -19,6 +19,8 @@ const services = [
   { name: 'Garage Cleanout', href: '/cities-served/boise/garage-cleanout' },
   { name: 'Yard Waste', href: '/cities-served/boise/yard-waste' },
   { name: 'Hot Tub Removal', href: '/cities-served/boise/hot-tub-removal' },
+  { name: 'Office Cleanout', href: '/cities-served/boise/office-cleanout' },
+  { name: 'Estate Cleanout', href: '/cities-served/boise/estate-cleanout' },
 ]
 
 export default function BoisePage() {
