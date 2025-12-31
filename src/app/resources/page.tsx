@@ -5,7 +5,7 @@ import { HelpCircle, DollarSign, Recycle, Lightbulb } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Junk Removal Resources | Top Shelf Junk Removal',
   description: 'Helpful resources about junk removal, pricing, recycling, and decluttering tips from Top Shelf Junk Removal.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/resources' },
+  alternates: { canonical: 'https://boise-junk-removal.com/resources' },
 }
 
 export default function ResourcesPage() {

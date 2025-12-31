@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Terms of Service | Hoarding Cleanup Pros',
   description: 'Terms of service for Hoarding Cleanup Pros hoarding cleanup services in Boise and the Treasure Valley.',
   alternates: {
-    canonical: 'https://boise-hoarding-cleanup.com/terms',
+    canonical: 'https://boise-junk-removal.com/terms',
   },
 }
 
@@ -121,7 +121,7 @@ export default function TermsPage() {
             </p>
             <ul>
               <li><strong>Phone:</strong> (208) 361-1982</li>
-              <li><strong>Email:</strong> info@boise-hoarding-cleanup.com</li>
+              <li><strong>Email:</strong> info@topshelfpros.com</li>
             </ul>
           </div>
 

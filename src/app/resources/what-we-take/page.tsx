@@ -3,7 +3,7 @@ import { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'What We Take | Top Shelf Junk Removal',
   description: 'What We Take for junk removal services in Boise and the Treasure Valley.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/resources/what-we-take' },
+  alternates: { canonical: 'https://boise-junk-removal.com/resources/what-we-take' },
 }
 
 export default function WhatWeTakePage() {

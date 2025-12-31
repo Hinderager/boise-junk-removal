@@ -3,7 +3,7 @@ import { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Testimonials | Top Shelf Junk Removal',
   description: 'Read reviews from our satisfied customers.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/about-us/testimonials' },
+  alternates: { canonical: 'https://boise-junk-removal.com/about-us/testimonials' },
 }
 
 export default function TestimonialsPage() {

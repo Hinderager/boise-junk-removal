@@ -3,7 +3,7 @@ import { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Pricing Guide | Top Shelf Junk Removal',
   description: 'Pricing Guide for junk removal services in Boise and the Treasure Valley.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/resources/pricing' },
+  alternates: { canonical: 'https://boise-junk-removal.com/resources/pricing' },
 }
 
 export default function PricingPage() {

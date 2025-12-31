@@ -1,9 +1,31 @@
 'use client'
 
+import { useState, useEffect, useRef } from 'react'
 import { MapPin, Phone, Mail, Clock } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
 export function MapSection() {
+  const [isMapVisible, setIsMapVisible] = useState(false)
+  const mapRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsMapVisible(true)
+          observer.disconnect()
+        }
+      },
+      { rootMargin: '100px' }
+    )
+
+    if (mapRef.current) {
+      observer.observe(mapRef.current)
+    }
+
+    return () => observer.disconnect()
+  }, [])
+
   return (
     <section className="py-20 bg-gradient-to-b from-blue-50/30 to-slate-100/50 relative overflow-hidden">
       <div className="absolute inset-0" style={{backgroundImage: `radial-gradient(circle, #10477d 3px, transparent 3px)`, backgroundSize: '16px 16px', maskImage: `radial-gradient(ellipse 85% 65% at 0% 0%, black, transparent 60%), radial-gradient(ellipse 85% 65% at 100% 100%, black, transparent 60%)`, WebkitMaskImage: `radial-gradient(ellipse 85% 65% at 0% 0%, black, transparent 60%), radial-gradient(ellipse 85% 65% at 100% 100%, black, transparent 60%)`, maskComposite: 'add', WebkitMaskComposite: 'source-over', opacity: 0.2}} />
@@ -24,7 +46,7 @@ export function MapSection() {
             </div>
             <div className="flex items-start gap-4">
               <div className="w-12 h-12 bg-gradient-to-br from-[#0b7fb6] to-[#10477d] rounded-full flex items-center justify-center flex-shrink-0"><Mail className="w-6 h-6 text-white" /></div>
-              <div><h4 className="font-semibold text-gray-900 mb-1">Email</h4><a href="mailto:info@boise-junk-removal.com" className="text-[#0b7fb6] hover:text-[#10477d] transition-colors">info@boise-junk-removal.com</a></div>
+              <div><h4 className="font-semibold text-gray-900 mb-1">Email</h4><a href="mailto:info@topshelfpros.com" className="text-[#0b7fb6] hover:text-[#10477d] transition-colors">info@topshelfpros.com</a></div>
             </div>
             <div className="flex items-start gap-4">
               <div className="w-12 h-12 bg-gradient-to-br from-[#0b7fb6] to-[#10477d] rounded-full flex items-center justify-center flex-shrink-0"><Clock className="w-6 h-6 text-white" /></div>
@@ -35,8 +57,17 @@ export function MapSection() {
               <div className="grid grid-cols-2 gap-2 text-gray-700"><p>• Boise</p><p>• Meridian</p><p>• Nampa</p><p>• Caldwell</p><p>• Eagle</p><p>• Kuna</p><p>• Star</p><p>• Garden City</p><p>• Middleton</p><p>• Hidden Springs</p></div>
             </div>
           </div>
-          <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d185295.55415754188!2d-116.46135044999999!3d43.6150186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54aef172e947b49d%3A0x9a2c4a71592dee96!2sBoise%2C%20ID!5e0!3m2!1sen!2sus!4v1702500000000!5m2!1sen!2sus" width="100%" height="100%" style={{ border: 0, minHeight: '500px' }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Junk Removal Pros Service Area - Boise, Idaho" />
+          <div ref={mapRef} className="bg-white rounded-2xl shadow-lg overflow-hidden min-h-[500px]">
+            {isMapVisible ? (
+              <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d185000!2d-116.2806!3d43.6352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s1755+N+Westgate+Dr,+Boise,+ID!5e0!3m2!1sen!2sus" width="100%" height="100%" style={{ border: 0, minHeight: '500px' }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Junk Removal Pros Service Area - Boise, Idaho" />
+            ) : (
+              <div className="w-full h-full min-h-[500px] bg-gray-100 flex items-center justify-center">
+                <div className="text-center text-gray-500">
+                  <MapPin className="w-12 h-12 mx-auto mb-2 text-[#10477d]" />
+                  <p>Loading map...</p>
+                </div>
+              </div>
+            )}
           </div>
         </div>
 

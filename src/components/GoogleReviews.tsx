@@ -6,14 +6,10 @@ import { Button } from '@/components/ui/button'
 import { Star, ChevronLeft, ChevronRight } from 'lucide-react'
 
 const staticReviews = [
-  { author: 'Mike R.', relative_time: '2 weeks ago', rating: 5, text: 'Called in the morning, they came that afternoon. Took all the old furniture from our basement—couches, tables, an old treadmill. Fast, professional, and reasonably priced. Will definitely use again.' },
-  { author: 'Sarah T.', relative_time: '1 month ago', rating: 5, text: 'These guys are amazing! Had a ton of yard waste from cutting down some trees and they hauled it all away in no time. Great communication and showed up exactly when they said they would.' },
-  { author: 'David L.', relative_time: '3 weeks ago', rating: 5, text: 'Used them for a garage cleanout. 15 years of accumulated stuff gone in a few hours. They sorted through everything, donated what they could, and hauled the rest. Very eco-conscious which I appreciated.' },
-  { author: 'Jennifer M.', relative_time: '2 months ago', rating: 5, text: 'Hired them to remove an old hot tub from our backyard. They disconnected it, broke it down, and hauled it away. Made what seemed like a huge project incredibly easy. Highly recommend!' },
-  { author: 'Chris B.', relative_time: '1 week ago', rating: 5, text: 'Fair pricing, no surprises. They quoted me a price over the phone and stuck to it. Removed a bunch of construction debris from my renovation. Would hire again in a heartbeat.' },
-  { author: 'Amanda K.', relative_time: '1 month ago', rating: 5, text: 'Used them for an estate cleanout after my father passed. They were incredibly respectful and patient as we sorted through everything. Found items we wanted to keep and handled the rest with care.' },
-  { author: 'Tom H.', relative_time: '3 weeks ago', rating: 5, text: 'Same-day service and great prices. Had an old refrigerator and washer/dryer that needed to go. They handled the heavy lifting and made sure everything was disposed of properly.' },
-  { author: 'Lisa P.', relative_time: '2 weeks ago', rating: 5, text: 'Moving out of state and needed to get rid of a lot of stuff quickly. They came out, gave us a fair quote, and had everything loaded up in under two hours. Lifesavers!' },
+  { author: 'Rachelle Tridle', rating: 5, text: 'Top Shelf Junk Removers were awesome! They showed up on time, took everything that was quoted — plus a few extra items I had on site — with no hassle. Super fast, efficient, affordable, and even had change because I paid with cash!. Great service all around. Highly recommend!' },
+  { author: 'Jeff Rau', rating: 5, text: 'Exceptional service and response from Top Shelf. Cleaning out a family home and we were able to fill a 15 cubic yard dumpster twice! Both deliveries were very timely and working with Top Shelf staff was great! Thank you for helping make our chore easier and efficient. I would easily recommend this business to others.' },
+  { author: 'Katrina Vincent', rating: 5, text: 'We recently hired Top Shelf to assist a client who had been a long time tenant for the company I work for, it was a big project, riddled with challenges. They far exceeded my expectations. Not only did they arrive on time and get right to work, they treated our clients with kindness and respect. They were extremely helpful and hard working. They accommodated our needs for appointment times and seemed to really want to earn our business. I hope to be able to utilize their services again! Would very highly recommend.' },
+  { author: 'Kevin McSpadden', rating: 5, text: 'Eric and Gabe were great. Positive attitude and tackled the job without complaint Pricing was great and will definitely use them again!' },
 ]
 
 export function GoogleReviews() {
@@ -21,7 +17,7 @@ export function GoogleReviews() {
   const [expandedReviews, setExpandedReviews] = useState(false)
   const reviewsPerPage = 4
   const rating = 4.9
-  const totalReviews = 150
+  const totalReviews = 323
 
   const nextSlide = () => setCurrentIndex((prev) => prev + reviewsPerPage >= staticReviews.length ? 0 : prev + reviewsPerPage)
   const prevSlide = () => setCurrentIndex((prev) => prev - reviewsPerPage < 0 ? Math.max(0, staticReviews.length - reviewsPerPage) : prev - reviewsPerPage)
@@ -59,7 +55,6 @@ export function GoogleReviews() {
                     </div>
                     <div className="flex-1 min-w-0">
                       <div className="flex items-center gap-1"><h3 className="font-semibold text-gray-900 truncate">{review.author}</h3><svg className="w-4 h-4 text-[#4285f4] flex-shrink-0" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg></div>
-                      <p className="text-sm text-gray-500">{review.relative_time}</p>
                     </div>
                   </div>
                   <div className="flex gap-1 mb-3">{[...Array(5)].map((_, i) => <Star key={i} className="w-5 h-5 fill-[#fbbc04] text-[#fbbc04]" />)}</div>

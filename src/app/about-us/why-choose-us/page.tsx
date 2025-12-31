@@ -3,7 +3,7 @@ import { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Why Choose Us | Top Shelf Junk Removal',
   description: 'What sets us apart from other junk removal companies.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/about-us/why-choose-us' },
+  alternates: { canonical: 'https://boise-junk-removal.com/about-us/why-choose-us' },
 }
 
 export default function WhyChooseUsPage() {

@@ -209,9 +209,9 @@ export function Header() {
           </nav>
 
           <div className="flex items-center flex-1 justify-center lg:justify-end">
-            <a href="tel:2085059352" className="lg:hidden bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold px-4 py-1.5 rounded-lg text-sm">Call Now</a>
-            <a href="tel:2085059352" className="hidden lg:flex items-center gap-1.5 text-white hover:text-gray-200 transition-colors font-bold text-lg xl:text-xl whitespace-nowrap">
-              <Phone className="h-5 w-5 xl:h-6 xl:w-6" /><span>(208) 505-9352</span>
+            <a href="tel:2089435231" className="lg:hidden bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold px-4 py-1.5 rounded-lg text-sm">Call Now</a>
+            <a href="tel:2089435231" className="hidden lg:flex items-center gap-1.5 text-white hover:text-gray-200 transition-colors font-bold text-lg xl:text-xl whitespace-nowrap">
+              <Phone className="h-5 w-5 xl:h-6 xl:w-6" /><span>(208) 943-5231</span>
             </a>
           </div>
 
@@ -246,7 +246,7 @@ export function Header() {
               <Link href="/contact" className="text-white/90 hover:text-white pl-2" onClick={() => setIsMobileMenuOpen(false)}>Contact</Link>
 
               <div className="flex flex-col space-y-2 pt-4">
-                <Button asChild className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold w-full"><a href="tel:2085059352">Call (208) 505-9352</a></Button>
+                <Button asChild className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold w-full"><a href="tel:2089435231">Call (208) 943-5231</a></Button>
               </div>
             </nav>
           </div>

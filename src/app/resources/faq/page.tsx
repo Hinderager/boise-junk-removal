@@ -3,7 +3,7 @@ import { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Frequently Asked Questions | Top Shelf Junk Removal',
   description: 'Frequently Asked Questions for junk removal services in Boise and the Treasure Valley.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/resources/faq' },
+  alternates: { canonical: 'https://boise-junk-removal.com/resources/faq' },
 }
 
 export default function FaqPage() {

@@ -3,8 +3,8 @@ import { Phone, Shield, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Licenses & Insurance | Boise Junk Removal Pros',
-  description: 'Fully licensed and insured junk removal services in Boise, Idaho. Professional, bonded team protecting your property. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/about-us/licenses-insurance' },
+  description: 'Fully licensed and insured junk removal services in Boise, Idaho. Professional, bonded team protecting your property. Call (208) 943-5231.',
+  alternates: { canonical: 'https://boise-junk-removal.com/about-us/licenses-insurance' },
 }
 
 export default function LicensesInsurancePage() {
@@ -76,8 +76,8 @@ export default function LicensesInsurancePage() {
             <div className="bg-gray-50 rounded-xl p-8 mb-12">
               <h2 className="text-2xl font-bold text-dark-blue mb-4">Questions About Our Coverage?</h2>
               <p className="text-gray-600 mb-6">We're happy to provide proof of insurance before we start any job. Just ask.</p>
-              <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-dark-blue text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#0b7fb6] transition-colors">
-                <Phone className="w-5 h-5" />Call (208) 505-9352
+              <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-dark-blue text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#0b7fb6] transition-colors">
+                <Phone className="w-5 h-5" />Call (208) 943-5231
               </a>
             </div>
           </div>
@@ -88,8 +88,8 @@ export default function LicensesInsurancePage() {
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold text-white mb-4">Ready to Work with a Licensed, Insured Team?</h2>
           <p className="text-gray-300 mb-6">Get your free quote today.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 943-5231
           </a>
         </div>
       </section>

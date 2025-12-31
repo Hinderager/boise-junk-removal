@@ -5,8 +5,8 @@ import { Phone, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Office Cleanout Nampa Idaho | Commercial Junk Removal',
-  description: 'Professional office cleanout in Nampa, Idaho. Fast commercial junk removal for offices, retail, and warehouses. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/cities-served/nampa/office-cleanout' },
+  description: 'Professional office cleanout in Nampa, Idaho. Fast commercial junk removal for offices, retail, and warehouses. Call (208) 943-5231.',
+  alternates: { canonical: 'https://boise-junk-removal.com/cities-served/nampa/office-cleanout' },
 }
 
 export default function NampaOfficeCleanoutPage() {
@@ -58,8 +58,8 @@ export default function NampaOfficeCleanoutPage() {
           <div className="bg-dark-blue rounded-xl p-8 text-center">
             <h2 className="text-2xl font-bold text-white mb-4">Need Office Cleanout in Nampa?</h2>
             <p className="text-gray-300 mb-6">Get a free commercial quote today.</p>
-            <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-              <Phone className="w-5 h-5" /> (208) 505-9352
+            <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+              <Phone className="w-5 h-5" /> (208) 943-5231
             </a>
           </div>
         </div>

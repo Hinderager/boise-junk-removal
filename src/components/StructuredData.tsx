@@ -25,7 +25,7 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
     "description": `Professional junk removal services in ${city}, Idaho. Fast, affordable junk hauling. Licensed and insured.`,
     "url": "https://boise-junk-removal.com",
     "telephone": "+1-208-361-1982",
-    "email": "info@boise-junk-removal.com",
+    "email": "info@topshelfpros.com",
     "address": { "@type": "PostalAddress", "addressLocality": city, "addressRegion": "ID", "addressCountry": "US" },
     "geo": { "@type": "GeoCoordinates", "latitude": coords.lat, "longitude": coords.lng },
     "areaServed": [

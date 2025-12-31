@@ -4,8 +4,8 @@ import { MapPin } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Junk Removal Service Areas | Top Shelf Junk Removal',
-  description: 'Professional junk removal serving Boise, Meridian, Nampa, Caldwell, Eagle, and the Treasure Valley. Same-day service available. Call (208) 505-9352.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/cities-served' },
+  description: 'Professional junk removal serving Boise, Meridian, Nampa, Caldwell, Eagle, and the Treasure Valley. Same-day service available. Call (208) 943-5231.',
+  alternates: { canonical: 'https://boise-junk-removal.com/cities-served' },
 }
 
 const cities = [

@@ -5,8 +5,8 @@ import { Phone, CheckCircle, MapPin } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Yard Waste Removal Meridian Idaho | Top Shelf Junk Removal',
-  description: 'Professional yard waste removal in Meridian, Idaho. Same-day service, upfront pricing. Call (208) 505-9352 for a free estimate.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/cities-served/meridian/yard-waste' },
+  description: 'Professional yard waste removal in Meridian, Idaho. Same-day service, upfront pricing. Call (208) 943-5231 for a free estimate.',
+  alternates: { canonical: 'https://boise-junk-removal.com/cities-served/meridian/yard-waste' },
 }
 
 export default function MeridianYardWastePage() {
@@ -56,8 +56,8 @@ export default function MeridianYardWastePage() {
           <div className="bg-dark-blue rounded-xl p-8 text-center">
             <h2 className="text-2xl font-bold text-white mb-4">Ready to Clear Out Your Space?</h2>
             <p className="text-gray-300 mb-6">Call for a free estimate in Meridian.</p>
-            <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-              <Phone className="w-5 h-5" /> (208) 505-9352
+            <a href="tel:2089435231" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+              <Phone className="w-5 h-5" /> (208) 943-5231
             </a>
           </div>
         </div>

@@ -3,7 +3,7 @@ import { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Decluttering Tips | Top Shelf Junk Removal',
   description: 'Decluttering Tips for junk removal services in Boise and the Treasure Valley.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/resources/decluttering-tips' },
+  alternates: { canonical: 'https://boise-junk-removal.com/resources/decluttering-tips' },
 }
 
 export default function DeclutteringTipsPage() {

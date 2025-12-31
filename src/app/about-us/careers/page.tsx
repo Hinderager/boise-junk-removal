@@ -3,7 +3,7 @@ import { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Careers | Top Shelf Junk Removal',
   description: 'Join our team and help clean up the Treasure Valley.',
-  alternates: { canonical: 'https://boisejunkremovalpros.com/about-us/careers' },
+  alternates: { canonical: 'https://boise-junk-removal.com/about-us/careers' },
 }
 
 export default function CareersPage() {
