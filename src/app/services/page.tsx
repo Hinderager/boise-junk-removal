@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
 import { ArrowRight, Trash2, Building2, Sofa, Microwave, TreePine, Sparkles } from 'lucide-react'
+import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 
 export const metadata: Metadata = {
   title: 'Junk Removal Services Boise | Top Shelf Junk Removal',
@@ -25,6 +26,8 @@ export default function ServicesPage() {
         <p className="text-xl text-gray-600 mb-12 max-w-3xl">
           We haul away just about anything that doesn't require a specialized license. From a single item to a whole house cleanout, we've got you covered.
         </p>
+
+          <QuickQuoteBar />
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {serviceCategories.map((category) => (

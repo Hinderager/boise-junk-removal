@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import { Phone, CheckCircle, ArrowRight } from 'lucide-react'
+import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 
 export const metadata: Metadata = {
   title: 'Appliance Removal Boise | Top Shelf Junk Removal',
@@ -48,6 +49,7 @@ export default function ApplianceRemovalPage() {
           <p className="text-xl text-gray-200 max-w-2xl">Safe removal and disposal of old appliances.</p>
         </div>
       </section>
+      <QuickQuoteBar />
 
       <section className="py-16">
         <div className="container mx-auto px-4">

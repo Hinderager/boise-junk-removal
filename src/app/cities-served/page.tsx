@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
 import { MapPin } from 'lucide-react'
+import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 
 export const metadata: Metadata = {
   title: 'Junk Removal Service Areas | Top Shelf Junk Removal',
@@ -64,6 +65,8 @@ export default function CitiesServedPage() {
         <p className="text-xl text-gray-600 mb-12 max-w-3xl">
           We proudly serve the entire Treasure Valley. From Boise to Caldwell and everywhere in between, we're your local junk removal team.
         </p>
+
+          <QuickQuoteBar />
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {cities.map((city) => (

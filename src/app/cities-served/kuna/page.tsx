@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { Phone, CheckCircle, MapPin } from 'lucide-react'
 import { ServicesGrid } from '@/components/ServicesGrid'
 import { FAQ } from '@/components/FAQ'
+import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 
 export const metadata: Metadata = {
   title: 'Junk Removal Kuna Idaho | Top Shelf Junk Removal',
@@ -34,6 +35,7 @@ export default function KunaPage() {
           <p className="text-xl text-gray-200 max-w-2xl">Fast, friendly junk removal for Kuna homes and businesses.</p>
         </div>
       </section>
+      <QuickQuoteBar />
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 max-w-4xl">
