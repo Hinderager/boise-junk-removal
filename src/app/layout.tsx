@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     title: 'Junk Removal Services | Boise, Meridian, Nampa Idaho',
     description: 'Professional, affordable junk removal services in the Treasure Valley. Licensed, insured, and eco-friendly. Same-day service available.',
     url: 'https://boise-junk-removal.com',
-    siteName: 'Boise Junk Removal Pros',
+    siteName: 'Top Shelf Junk Removal',
     locale: 'en_US',
     type: 'website',
   },
