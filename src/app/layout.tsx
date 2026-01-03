@@ -5,6 +5,7 @@ import './globals.css'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { StructuredData } from '@/components/StructuredData'
+import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 
 import { QuoteFormProvider } from '@/context/QuoteFormContext'
 
@@ -25,8 +26,8 @@ const oswald = Oswald({
 export const metadata: Metadata = {
   metadataBase: new URL('https://boise-junk-removal.com'),
   title: {
-    default: 'Junk Removal Services Boise | Professional Junk Hauling Idaho',
-    template: '%s | Junk Removal Boise',
+    default: 'Boise Junk Removal | Same-Day Pickup | Top Shelf',
+    template: '%s | Boise Junk Removal',
   },
   description: 'Professional junk removal services in Boise, Meridian, Nampa, Caldwell & Eagle Idaho. Fast junk hauling, furniture removal, appliance disposal. Licensed & insured. Same-day service. Call (208) 361-1982.',
   keywords: [
@@ -85,6 +86,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
         <StructuredData />
+        <BreadcrumbSchema siteName="Top Shelf Junk Removal" siteUrl="https://boise-junk-removal.com" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
         <link rel="dns-prefetch" href="https://connect.facebook.net" />
