@@ -30,7 +30,7 @@ export function ServicesGrid() {
           {services.map((service, index) => {
             const Icon = service.icon
             return (
-              <Card key={index} className="group shadow-2xl hover:shadow-[0_20px_50px_rgba(16,_71,_125,_0.7)] hover:-translate-y-2 transition-all duration-300 border-2 border-transparent hover:border-dark-blue flex flex-col" style={{boxShadow: '0 10px 30px rgba(16, 71, 125, 0.3), 0 5px 15px rgba(16, 71, 125, 0.2)'}}>
+              <Card key={index} className="min-h-[280px] group shadow-2xl hover:shadow-[0_20px_50px_rgba(16,_71,_125,_0.7)] hover:-translate-y-2 transition-all duration-300 border-2 border-transparent hover:border-dark-blue flex flex-col" style={{boxShadow: '0 10px 30px rgba(16, 71, 125, 0.3), 0 5px 15px rgba(16, 71, 125, 0.2)'}}>
                 <CardHeader className="text-center">
                   <div className="mx-auto mb-4 w-20 h-20 bg-gradient-to-br from-dark-blue to-[#2064aa] rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                     <Icon className="h-10 w-10 text-white" />

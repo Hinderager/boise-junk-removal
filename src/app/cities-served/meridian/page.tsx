@@ -64,6 +64,40 @@ export default function MeridianPage() {
             ))}
           </div>
 
+            {/* Neighborhood Pages */}
+            <div className="mt-12">
+              <h3 className="text-2xl font-bold text-dark-blue mb-6">
+                Meridian Neighborhoods We Serve
+              </h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                
+                <Link
+                  href="/cities-served/meridian/ten-mile"
+                  className="bg-gray-100 hover:bg-gray-200 rounded-lg p-4 transition-colors"
+                >
+                  <span className="font-semibold text-dark-blue">Ten Mile Area</span>
+                </Link>
+                <Link
+                  href="/cities-served/meridian/lochsa-falls"
+                  className="bg-gray-100 hover:bg-gray-200 rounded-lg p-4 transition-colors"
+                >
+                  <span className="font-semibold text-dark-blue">Lochsa Falls</span>
+                </Link>
+                <Link
+                  href="/cities-served/meridian/paramount"
+                  className="bg-gray-100 hover:bg-gray-200 rounded-lg p-4 transition-colors"
+                >
+                  <span className="font-semibold text-dark-blue">Paramount</span>
+                </Link>
+                <Link
+                  href="/cities-served/meridian/tuscany"
+                  className="bg-gray-100 hover:bg-gray-200 rounded-lg p-4 transition-colors"
+                >
+                  <span className="font-semibold text-dark-blue">Tuscany</span>
+                </Link>
+              </div>
+            </div>
+
           <div className="bg-dark-blue rounded-xl p-8 text-center">
             <h3 className="text-2xl font-bold text-white mb-4">Get a Free Quote in Meridian</h3>
             <p className="text-gray-300 mb-6">Call now for same-day service.</p>
