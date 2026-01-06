@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { Phone, CheckCircle, ArrowRight } from 'lucide-react'
 import { QuickQuoteBar } from '@/components/QuickQuoteBar'
+import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
   title: 'Specialty Removal Boise | Top Shelf Junk Removal',
@@ -49,6 +50,7 @@ export default function SpecialtyPage() {
           <p className="text-xl text-gray-200 max-w-2xl">Specialized removal services for unique items.</p>
         </div>
       </section>
+      <VisibleBreadcrumb />
       <QuickQuoteBar />
 
       <section className="py-16">

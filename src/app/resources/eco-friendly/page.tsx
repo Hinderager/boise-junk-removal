@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 import { Phone, Recycle, Trees, Heart, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
@@ -17,6 +18,8 @@ export default function EcoFriendlyPage() {
           <p className="text-xl text-gray-200 max-w-2xl mx-auto">We don't just haul stuff to the dump. We recycle, donate, and dispose responsibly.</p>
         </div>
       </section>
+
+      <VisibleBreadcrumb />
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">

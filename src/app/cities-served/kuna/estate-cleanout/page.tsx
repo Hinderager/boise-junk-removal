@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Phone, CheckCircle } from 'lucide-react'
 import { QuickQuoteBar } from '@/components/QuickQuoteBar'
+import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
   title: 'Estate Cleanout Kuna Idaho | Compassionate Service',
@@ -27,6 +28,7 @@ export default function KunaEstateCleanoutPage() {
           <h1 className="text-4xl md:text-5xl font-bold text-white">Estate Cleanout in Kuna</h1>
         </div>
       </section>
+      <VisibleBreadcrumb />
       <QuickQuoteBar />
 
       <section className="py-16">

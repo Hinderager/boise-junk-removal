@@ -5,6 +5,7 @@ import { Phone, CheckCircle, MapPin } from 'lucide-react'
 import { ServicesGrid } from '@/components/ServicesGrid'
 import { FAQ } from '@/components/FAQ'
 import { QuickQuoteBar } from '@/components/QuickQuoteBar'
+import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
   title: 'Junk Removal Boise Idaho | Top Shelf Junk Removal',
@@ -35,6 +36,7 @@ export default function BoisePage() {
           <p className="text-xl text-gray-200 max-w-2xl">Fast, friendly junk removal for Boise homes and businesses.</p>
         </div>
       </section>
+      <VisibleBreadcrumb />
       <QuickQuoteBar />
 
       <section className="py-16 bg-white">

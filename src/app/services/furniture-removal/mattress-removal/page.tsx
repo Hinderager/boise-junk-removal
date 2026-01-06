@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Phone, CheckCircle, MapPin } from 'lucide-react'
 import { QuickQuoteBar } from '@/components/QuickQuoteBar'
+import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
   title: 'Mattress Removal Boise Idaho | Top Shelf Junk Removal',
@@ -30,6 +31,7 @@ export default function MattressRemovalPage() {
           <p className="text-xl text-gray-200 max-w-2xl">Mattresses, box springs, and bed frames removed. We can handle any size.</p>
         </div>
       </section>
+      <VisibleBreadcrumb />
       <QuickQuoteBar />
 
       <section className="py-16">
