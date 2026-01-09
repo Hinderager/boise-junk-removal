@@ -10,6 +10,7 @@ export const metadata: Metadata = {
 export default function FaqPage() {
   return (
     <main className="pt-24 pb-16">
+      <VisibleBreadcrumb />
       <div className="container mx-auto px-4">
         <h1 className="text-4xl md:text-5xl font-bold text-dark-blue mb-6">Frequently Asked Questions</h1>
       </div>

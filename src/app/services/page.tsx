@@ -28,6 +28,9 @@ export default function ServicesPage() {
           We haul away just about anything that doesn't require a specialized license. From a single item to a whole house cleanout, we've got you covered.
         </p>
 
+          <VisibleBreadcrumb />
+
+
           <QuickQuoteBar />
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

@@ -11,6 +11,7 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <main className="pt-24 pb-16">
+      <VisibleBreadcrumb />
       <div className="container mx-auto px-4">
         <h1 className="text-4xl md:text-5xl font-bold text-dark-blue mb-6">Contact Us</h1>
         <p className="text-xl text-gray-600 mb-12">Ready to get rid of your junk? Give us a call or send us a message.</p>

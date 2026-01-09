@@ -12,6 +12,7 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <main className="pt-24 pb-16">
+      <VisibleBreadcrumb />
       <div className="container mx-auto px-4">
         <h1 className="text-4xl md:text-5xl font-bold text-dark-blue mb-6">About Top Shelf Junk Removal</h1>
         <div className="max-w-4xl">

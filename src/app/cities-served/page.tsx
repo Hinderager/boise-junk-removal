@@ -67,6 +67,9 @@ export default function CitiesServedPage() {
           We proudly serve the entire Treasure Valley. From Boise to Caldwell and everywhere in between, we're your local junk removal team.
         </p>
 
+          <VisibleBreadcrumb />
+
+
           <QuickQuoteBar />
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
