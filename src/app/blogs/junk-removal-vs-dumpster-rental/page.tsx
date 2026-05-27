@@ -136,7 +136,7 @@ export default function BlogPost() {
             </p>
 
             <p className="text-lg text-gray-600 leading-relaxed mb-6">
-              <strong>Hidden costs add up.</strong> The base rental price often doesn't include delivery fees, pickup fees, overage charges if you exceed weight limits, or extended rental fees if you need more time. What looked like $300 can become $500 pretty easily.
+              <strong>Hidden costs add up.</strong> The base rental price often doesn't include delivery fees, pickup fees, overage charges if you exceed weight limits, or extended rental fees if you need more time. The "advertised" price can balloon by hundreds of dollars pretty easily.
             </p>
 
             <p className="text-lg text-gray-600 leading-relaxed mb-6">
@@ -194,11 +194,11 @@ export default function BlogPost() {
             </p>
 
             <p className="text-lg text-gray-600 leading-relaxed mb-6">
-              <strong>Dumpster rental</strong> typically runs $300-600 for a 10-20 yard container for 5-7 days. Add delivery ($50-100), pickup, potential overage fees, and your total is often $400-700. Plus your time doing the actual loading.
+              <strong>Dumpster rental</strong> for a 10-20 yard container over 5-7 days has a base weekly rate plus separate delivery, pickup, and potential overage fees. Once you add it all up, the total often climbs well past the headline number. Plus your time doing the actual loading.
             </p>
 
             <p className="text-lg text-gray-600 leading-relaxed mb-6">
-              <strong>Junk removal service</strong> for a similar volume (half to full truck) typically costs $250-600. That includes labor, hauling, and disposal. No surprises, no extra fees, no weekend spent sweating in the garage.
+              <strong>Junk removal service</strong> for a similar volume (half to full truck) includes labor, hauling, and disposal in one quote. No surprises, no extra fees, no weekend spent sweating in the garage.
             </p>
 
             <p className="text-lg text-gray-600 leading-relaxed mb-6">

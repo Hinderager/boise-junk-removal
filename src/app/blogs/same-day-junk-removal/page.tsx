@@ -173,7 +173,7 @@ export default function BlogPost() {
             </p>
 
             <p className="text-lg text-gray-600 leading-relaxed mb-6">
-              For typical same-day jobs in the Boise area, expect pricing similar to standard junk removal: single items run $75-150, quarter truck loads $150-250, half trucks $250-400, and full trucks $400-600+. These are the same rates regardless of timing.
+              For typical same-day jobs in the Boise area, expect pricing similar to standard junk removal — single items are the easiest end of the range, with quarter, half, and full truck loads scaling up from there. These are the same rates regardless of timing.
             </p>
 
             <p className="text-lg text-gray-600 leading-relaxed">

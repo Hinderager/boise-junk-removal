@@ -132,19 +132,19 @@ export default function BlogPost() {
             </p>
 
             <p className="text-lg text-gray-600 leading-relaxed mb-6">
-              <strong>Single item pickup</strong> runs $75-150 for most items. One couch, one mattress, one appliance — quick jobs where we're in and out. Larger or heavier single items like hot tubs or pianos cost more due to the labor involved.
+              <strong>Single item pickup.</strong> One couch, one mattress, one appliance — quick jobs where we're in and out. The most budget-friendly end of the range. Larger or heavier single items like hot tubs or pianos cost more due to the labor involved.
             </p>
 
             <p className="text-lg text-gray-600 leading-relaxed mb-6">
-              <strong>Quarter truck load</strong> typically costs $150-250. This handles a few pieces of furniture, some boxes, maybe a small room cleanout. It's the most common size for people who've accumulated stuff in a spare room or corner of the garage.
+              <strong>Quarter truck load.</strong> This handles a few pieces of furniture, some boxes, maybe a small room cleanout. It's the most common size for people who've accumulated stuff in a spare room or corner of the garage.
             </p>
 
             <p className="text-lg text-gray-600 leading-relaxed mb-6">
-              <strong>Half truck load</strong> runs $250-400. This is your typical garage cleanout, basement cleanout, or small estate situation. Enough stuff to make a real dent but not a massive project.
+              <strong>Half truck load.</strong> This is your typical garage cleanout, basement cleanout, or small estate situation. Enough stuff to make a real dent but not a massive project.
             </p>
 
             <p className="text-lg text-gray-600 leading-relaxed mb-6">
-              <strong>Full truck load</strong> costs $400-600 or more depending on complexity. Major cleanouts, whole house situations, large commercial jobs. When you need serious hauling capacity.
+              <strong>Full truck load.</strong> Major cleanouts, whole house situations, large commercial jobs. The most involved end of the range when you need serious hauling capacity.
             </p>
 
             <p className="text-lg text-gray-600 leading-relaxed">

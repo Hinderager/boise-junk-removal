@@ -194,7 +194,7 @@ export default function BlogPost() {
             </p>
 
             <p className="text-lg text-gray-600 leading-relaxed mb-6">
-              <strong>Selling high-value items.</strong> Facebook Marketplace works well for furniture and electronics in the Boise area. But be realistic — the time spent photographing, posting, messaging, and coordinating pickups adds up fast. For most items, it's not worth it unless they're worth at least $50.
+              <strong>Selling high-value items.</strong> Facebook Marketplace works well for furniture and electronics in the Boise area. But be realistic — the time spent photographing, posting, messaging, and coordinating pickups adds up fast. For most low-value items, it's not worth the hassle.
             </p>
 
             <p className="text-lg text-gray-600 leading-relaxed mb-6">
