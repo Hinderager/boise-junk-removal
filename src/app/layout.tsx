@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     default: 'Boise Junk Removal | Same-Day Pickup | Top Shelf',
     template: '%s | Boise Junk Removal',
   },
-  description: 'Professional junk removal services in Boise, Meridian, Nampa, Caldwell & Eagle Idaho. Fast junk hauling, furniture removal, appliance disposal. Licensed & insured. Same-day service. Call (208) 361-1982.',
+  description: 'Professional junk removal services in Boise, Meridian, Nampa, Caldwell & Eagle Idaho. Fast junk hauling, furniture removal, appliance disposal. Licensed & insured. Same-day service. Call (208) 943-5231.',
   keywords: [
     'junk removal Boise',
     'junk hauling Boise Idaho',

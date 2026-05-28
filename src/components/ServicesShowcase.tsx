@@ -2,10 +2,10 @@ import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 
 const services = [
-  { title: 'Electronics & E-Waste', description: 'Old TVs, computers, monitors, printers, and electronics piling up? We haul it all away responsibly. E-waste requires special handling, and we make sure everything gets recycled or disposed of properly. No more letting outdated tech collect dust in your closet.', image: '/generated/electronics-ewaste.webp', link: 'tel:2083611982', buttonText: 'Call Now' },
-  { title: 'Basement & Attic Cleanout', description: 'Those spaces where stuff goes to be forgotten? We clear them out. Old boxes, holiday decorations you\'ll never use again, that exercise equipment from 2015—we haul it all away so you can finally reclaim that storage space.', image: '/generated/basement-cleanout.webp', link: 'tel:2083611982', buttonText: 'Call Now' },
-  { title: 'Yard Waste Removal', description: 'Tree branches, leaves, dirt, sod, bushes, landscaping debris—we\'ll clear it all out. Perfect for post-storm cleanup, landscaping projects, or general yard maintenance. We haul it away so you don\'t have to make multiple dump runs.', image: '/generated/yard-waste.webp', link: 'tel:2083611982', buttonText: 'Call Now' },
-  { title: 'Garage Cleanout', description: 'Years of accumulated stuff in your garage? We\'ll clear it all out—old tools, boxes, holiday decorations, broken equipment, whatever you\'ve got. We sort, haul, and dispose of everything so you can actually park in your garage again.', image: '/generated/garage-cleanout.webp', link: 'tel:2083611982', buttonText: 'Call Now' },
+  { title: 'Electronics & E-Waste', description: 'Old TVs, computers, monitors, printers, and electronics piling up? We haul it all away responsibly. E-waste requires special handling, and we make sure everything gets recycled or disposed of properly. No more letting outdated tech collect dust in your closet.', image: '/generated/electronics-ewaste.webp', link: 'tel:2089435231', buttonText: 'Call Now' },
+  { title: 'Basement & Attic Cleanout', description: 'Those spaces where stuff goes to be forgotten? We clear them out. Old boxes, holiday decorations you\'ll never use again, that exercise equipment from 2015—we haul it all away so you can finally reclaim that storage space.', image: '/generated/basement-cleanout.webp', link: 'tel:2089435231', buttonText: 'Call Now' },
+  { title: 'Yard Waste Removal', description: 'Tree branches, leaves, dirt, sod, bushes, landscaping debris—we\'ll clear it all out. Perfect for post-storm cleanup, landscaping projects, or general yard maintenance. We haul it away so you don\'t have to make multiple dump runs.', image: '/generated/yard-waste.webp', link: 'tel:2089435231', buttonText: 'Call Now' },
+  { title: 'Garage Cleanout', description: 'Years of accumulated stuff in your garage? We\'ll clear it all out—old tools, boxes, holiday decorations, broken equipment, whatever you\'ve got. We sort, haul, and dispose of everything so you can actually park in your garage again.', image: '/generated/garage-cleanout.webp', link: 'tel:2089435231', buttonText: 'Call Now' },
 ]
 
 export function ServicesShowcase() {
@@ -37,7 +37,7 @@ export function ServicesShowcase() {
 
         <div className="flex flex-row gap-4 justify-center mt-16">
           <Button asChild size="lg" className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold text-lg px-10 py-6 rounded-lg uppercase border-4 border-ub-yellow">
-            <a href="tel:2083611982"><span className="md:hidden">Call Now</span><span className="hidden md:inline">(208) 361-1982</span></a>
+            <a href="tel:2089435231"><span className="md:hidden">Call Now</span><span className="hidden md:inline">(208) 943-5231</span></a>
           </Button>
         </div>
       </div>

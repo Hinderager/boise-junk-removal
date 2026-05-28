@@ -306,10 +306,10 @@ export default function BlogPost() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:2083611982"
+                href="tel:2089435231"
                 className="inline-block bg-amber-400 hover:bg-amber-300 text-gray-900 font-bold text-lg px-8 py-4 rounded-lg transition-colors"
               >
-                Call (208) 361-1982
+                Call (208) 943-5231
               </a>
               <span className="text-blue-100 self-center">Serving Boise, Meridian, Nampa & the Treasure Valley</span>
             </div>
