@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Garage Cleanout Meridian Idaho | Top Shelf Junk Removal',
+  title: 'Garage Cleanout Meridian Idaho | Boise Junk Removal',
   description: 'Professional garage cleanout in Meridian, Idaho. Same-day service, upfront pricing. Call (208) 943-5231 for a free estimate.',
   alternates: { canonical: 'https://boise-junk-removal.com/cities-served/meridian/garage-cleanout' },
 }

@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Garage Cleanout Star Idaho | Top Shelf Junk Removal',
+  title: 'Garage Cleanout Star Idaho | Boise Junk Removal',
   description: 'Professional garage cleanout in Star, Idaho. Same-day service, upfront pricing. Call (208) 943-5231 for a free estimate.',
   alternates: { canonical: 'https://boise-junk-removal.com/cities-served/star/garage-cleanout' },
 }

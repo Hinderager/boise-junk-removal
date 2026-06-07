@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Why Choose Us | Top Shelf Junk Removal',
+  title: 'Why Choose Us | Boise Junk Removal',
   description: 'What sets us apart from other junk removal companies.',
   alternates: { canonical: 'https://boise-junk-removal.com/about-us/why-choose-us' },
 }

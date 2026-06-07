@@ -8,7 +8,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Junk Removal Middleton Idaho | Top Shelf Junk Removal',
+  title: 'Junk Removal Middleton Idaho | Boise Junk Removal',
   description: 'Professional junk removal in Middleton, Idaho. Same-day service, upfront pricing, eco-friendly disposal. Serving Downtown Middleton, Purple Sage and more. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-junk-removal.com/cities-served/middleton' },
 }

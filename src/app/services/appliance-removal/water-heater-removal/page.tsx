@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Water Heater Removal Boise Idaho | Top Shelf Junk Removal',
+  title: 'Water Heater Removal Boise Idaho | Boise Junk Removal',
   description: 'Tank and tankless water heaters properly disposed of. Professional junk removal in Boise and the Treasure Valley. Free estimates. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-junk-removal.com/services/appliance-removal/water-heater-removal' },
 }

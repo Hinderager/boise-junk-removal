@@ -26,7 +26,7 @@ const oswald = Oswald({
 export const metadata: Metadata = {
   metadataBase: new URL('https://boise-junk-removal.com'),
   title: {
-    default: 'Boise Junk Removal | Same-Day Pickup | Top Shelf',
+    default: 'Boise Junk Removal | Same-Day Pickup',
     template: '%s | Boise Junk Removal',
   },
   description: 'Professional junk removal services in Boise, Meridian, Nampa, Caldwell & Eagle Idaho. Fast junk hauling, furniture removal, appliance disposal. Licensed & insured. Same-day service. Call (208) 943-5231.',
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     title: 'Junk Removal Services | Boise, Meridian, Nampa Idaho',
     description: 'Professional, affordable junk removal services in the Treasure Valley. Licensed, insured, and eco-friendly. Same-day service available.',
     url: 'https://boise-junk-removal.com',
-    siteName: 'Top Shelf Junk Removal',
+    siteName: 'Boise Junk Removal',
     locale: 'en_US',
     type: 'website',
   },
@@ -83,7 +83,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${oswald.variable} ${montserrat.variable} scroll-smooth`}>
         <StructuredData />
-        <BreadcrumbSchema siteName="Top Shelf Junk Removal" siteUrl="https://boise-junk-removal.com" />
+        <BreadcrumbSchema siteName="Boise Junk Removal" siteUrl="https://boise-junk-removal.com" />
         <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="preconnect" href="https://www.google-analytics.com" />

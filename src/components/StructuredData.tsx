@@ -21,11 +21,10 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": `Junk Removal Pros - ${city}`,
+    "name": "Boise Junk Removal",
     "description": `Professional junk removal services in ${city}, Idaho. Fast, affordable junk hauling. Licensed and insured.`,
     "url": "https://boise-junk-removal.com",
     "telephone": "+1-208-943-5231",
-    "email": "info@topshelfpros.com",
     "address": { "@type": "PostalAddress", "addressLocality": city, "addressRegion": "ID", "addressCountry": "US" },
     "geo": { "@type": "GeoCoordinates", "latitude": coords.lat, "longitude": coords.lng },
     "areaServed": [
@@ -44,7 +43,7 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
     "@context": "https://schema.org",
     "@type": "Service",
     "serviceType": "Junk Removal Services",
-    "provider": { "@type": "LocalBusiness", "name": "Junk Removal Pros" },
+    "provider": { "@type": "LocalBusiness", "name": "Boise Junk Removal" },
     "areaServed": { "@type": "State", "name": "Idaho" },
     "description": `Professional junk removal and hauling services in ${city} and the Treasure Valley.`
   }

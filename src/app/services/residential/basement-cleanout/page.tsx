@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Basement Cleanout Boise Idaho | Top Shelf Junk Removal',
+  title: 'Basement Cleanout Boise Idaho | Boise Junk Removal',
   description: 'Clear out years of accumulated items from your basement. Fast, thorough, and hassle-free. Professional junk removal in Boise and the Treasure Valley. Free estimates. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-junk-removal.com/services/residential/basement-cleanout' },
 }

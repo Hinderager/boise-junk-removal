@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'TV & Electronics Removal Boise Idaho | Top Shelf Junk Removal',
+  title: 'TV & Electronics Removal Boise Idaho | Boise Junk Removal',
   description: 'Old TVs, computers, monitors, and electronics responsibly recycled. Professional junk removal in Boise and the Treasure Valley. Free estimates. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-junk-removal.com/services/specialty/tv-removal' },
 }

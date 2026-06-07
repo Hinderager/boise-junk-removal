@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Hot Tub Removal Nampa Idaho | Top Shelf Junk Removal',
+  title: 'Hot Tub Removal Nampa Idaho | Boise Junk Removal',
   description: 'Professional hot tub removal in Nampa, Idaho. Same-day service, upfront pricing. Call (208) 943-5231 for a free estimate.',
   alternates: { canonical: 'https://boise-junk-removal.com/cities-served/nampa/hot-tub-removal' },
 }

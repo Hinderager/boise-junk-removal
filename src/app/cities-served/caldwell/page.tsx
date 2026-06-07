@@ -8,7 +8,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Junk Removal Caldwell Idaho | Top Shelf Junk Removal',
+  title: 'Junk Removal Caldwell Idaho | Boise Junk Removal',
   description: 'Professional junk removal in Caldwell, Idaho. Same-day service, upfront pricing, eco-friendly disposal. Serving Downtown Caldwell, West Caldwell, East Caldwell and more. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-junk-removal.com/cities-served/caldwell' },
 }

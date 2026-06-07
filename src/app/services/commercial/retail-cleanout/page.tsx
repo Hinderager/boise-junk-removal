@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Retail Store Cleanout Boise Idaho | Top Shelf Junk Removal',
+  title: 'Retail Store Cleanout Boise Idaho | Boise Junk Removal',
   description: 'Fixtures, displays, inventory, and debris removed from retail locations. Professional junk removal in Boise and the Treasure Valley. Free estimates. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-junk-removal.com/services/commercial/retail-cleanout' },
 }

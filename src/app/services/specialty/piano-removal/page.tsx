@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Piano Removal Boise Idaho | Top Shelf Junk Removal',
+  title: 'Piano Removal Boise Idaho | Boise Junk Removal',
   description: 'Pianos and organs carefully moved out of your home. Uprights and grands. Professional junk removal in Boise and the Treasure Valley. Free estimates. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-junk-removal.com/services/specialty/piano-removal' },
 }

@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Outdoor Furniture Removal Boise Idaho | Top Shelf Junk Removal',
+  title: 'Outdoor Furniture Removal Boise Idaho | Boise Junk Removal',
   description: 'Patio sets, old grills, broken umbrellas, and outdoor items removed. Professional junk removal in Boise and the Treasure Valley. Free estimates. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-junk-removal.com/services/furniture-removal/outdoor-furniture' },
 }

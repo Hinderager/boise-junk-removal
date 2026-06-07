@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Junk Removal Lochsa Falls Meridian | Top Shelf',
+  title: 'Junk Removal Lochsa Falls Meridian | Boise Junk Removal',
   description: 'Junk Removal services in Lochsa Falls, Meridian, Idaho. Local team, fair prices, same-day service available. Call (208) 943-5231.',
   keywords: ['junk removal Lochsa Falls', 'junk removal Lochsa Falls Meridian', 'Lochsa Falls meridian junk removal'],
   alternates: {

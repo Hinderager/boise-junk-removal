@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Residential Junk Removal Boise | Top Shelf Junk Removal',
+  title: 'Residential Junk Removal Boise | Boise Junk Removal',
   description: 'Complete junk removal services for homes throughout the Boise area. Serving Boise, Meridian, Nampa, and the Treasure Valley. Free estimates. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-junk-removal.com/services/residential' },
 }

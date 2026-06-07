@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Junk Removal Paramount Meridian | Top Shelf',
+  title: 'Junk Removal Paramount Meridian | Boise Junk Removal',
   description: 'Junk Removal services in Paramount, Meridian, Idaho. Local team, fair prices, same-day service available. Call (208) 943-5231.',
   keywords: ['junk removal Paramount', 'junk removal Paramount Meridian', 'Paramount meridian junk removal'],
   alternates: {

@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Furniture Removal Eagle Idaho | Top Shelf Junk Removal',
+  title: 'Furniture Removal Eagle Idaho | Boise Junk Removal',
   description: 'Professional furniture removal in Eagle, Idaho. Same-day service, upfront pricing. Call (208) 943-5231 for a free estimate.',
   alternates: { canonical: 'https://boise-junk-removal.com/cities-served/eagle/furniture-removal' },
 }

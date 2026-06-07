@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Junk Removal Tuscany Meridian | Top Shelf',
+  title: 'Junk Removal Tuscany Meridian | Boise Junk Removal',
   description: 'Junk Removal services in Tuscany, Meridian, Idaho. Local team, fair prices, same-day service available. Call (208) 943-5231.',
   keywords: ['junk removal Tuscany', 'junk removal Tuscany Meridian', 'Tuscany meridian junk removal'],
   alternates: {

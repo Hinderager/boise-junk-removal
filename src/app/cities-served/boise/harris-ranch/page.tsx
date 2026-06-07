@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Junk Removal Harris Ranch Boise | Top Shelf',
+  title: 'Junk Removal Harris Ranch Boise | Boise Junk Removal',
   description: 'Junk Removal services in Harris Ranch, Boise, Idaho. Local team, fair prices, same-day service available. Call (208) 943-5231.',
   keywords: ['junk removal Harris Ranch', 'junk removal Harris Ranch Boise', 'Harris Ranch boise junk removal'],
   alternates: {

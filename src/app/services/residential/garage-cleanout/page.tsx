@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Garage Cleanout Boise Idaho | Top Shelf Junk Removal',
+  title: 'Garage Cleanout Boise Idaho | Boise Junk Removal',
   description: 'Transform your cluttered garage back into usable space. We handle everything from old tools to forgotten boxes. Professional junk removal in Boise and the Treasure Valley. Free estimates. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-junk-removal.com/services/residential/garage-cleanout' },
 }

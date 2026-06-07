@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Yard Waste Removal Boise | Top Shelf Junk Removal',
+  title: 'Yard Waste Removal Boise | Boise Junk Removal',
   description: 'Yard debris, brush, and landscaping waste hauled away. Serving Boise, Meridian, Nampa, and the Treasure Valley. Free estimates. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-junk-removal.com/services/yard-waste' },
 }

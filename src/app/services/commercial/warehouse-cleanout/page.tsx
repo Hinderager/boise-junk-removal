@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Warehouse Cleanout Boise Idaho | Top Shelf Junk Removal',
+  title: 'Warehouse Cleanout Boise Idaho | Boise Junk Removal',
   description: 'Large-scale removal of pallets, equipment, and materials from warehouse and industrial spaces. Professional junk removal in Boise and the Treasure Valley. Free estimates. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-junk-removal.com/services/commercial/warehouse-cleanout' },
 }

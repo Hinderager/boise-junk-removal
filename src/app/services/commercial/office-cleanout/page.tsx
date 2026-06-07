@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Office Cleanout Boise Idaho | Top Shelf Junk Removal',
+  title: 'Office Cleanout Boise Idaho | Boise Junk Removal',
   description: 'Desk, chairs, cubicles, old equipment—we clear out office spaces efficiently with minimal disruption. Professional junk removal in Boise and the Treasure Valley. Free estimates. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-junk-removal.com/services/commercial/office-cleanout' },
 }

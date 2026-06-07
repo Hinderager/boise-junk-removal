@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Appliance Removal Eagle Idaho | Top Shelf Junk Removal',
+  title: 'Appliance Removal Eagle Idaho | Boise Junk Removal',
   description: 'Professional appliance removal in Eagle, Idaho. Same-day service, upfront pricing. Call (208) 943-5231 for a free estimate.',
   alternates: { canonical: 'https://boise-junk-removal.com/cities-served/eagle/appliance-removal' },
 }

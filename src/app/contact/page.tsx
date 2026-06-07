@@ -1,9 +1,9 @@
 import { Metadata } from 'next'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
-import { Phone, Mail, MapPin, Clock } from 'lucide-react'
+import { Phone, MapPin, Clock } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Contact Us | Top Shelf Junk Removal',
+  title: 'Contact Us | Boise Junk Removal',
   description: 'Contact Top Shelf Junk Removal for junk removal in Boise and the Treasure Valley. Call (208) 943-5231 or request a free quote online.',
   alternates: { canonical: 'https://boise-junk-removal.com/contact' },
 }
@@ -25,15 +25,6 @@ export default function ContactPage() {
               <div>
                 <h3 className="font-bold text-dark-blue mb-1">Phone</h3>
                 <a href="tel:2089435231" className="text-[#0b7fb6] text-lg font-semibold">(208) 943-5231</a>
-              </div>
-            </div>
-            <div className="flex items-start gap-4">
-              <div className="w-12 h-12 bg-dark-blue rounded-full flex items-center justify-center flex-shrink-0">
-                <Mail className="w-6 h-6 text-white" />
-              </div>
-              <div>
-                <h3 className="font-bold text-dark-blue mb-1">Email</h3>
-                <a href="mailto:info@topshelfpros.com" className="text-[#0b7fb6]">info@topshelfpros.com</a>
               </div>
             </div>
             <div className="flex items-start gap-4">

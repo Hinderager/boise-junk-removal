@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Storage Unit Cleanout Boise Idaho | Top Shelf Junk Removal',
+  title: 'Storage Unit Cleanout Boise Idaho | Boise Junk Removal',
   description: 'Empty that storage unit you have been paying for. We remove everything and sweep it clean. Professional junk removal in Boise and the Treasure Valley. Free estimates. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-junk-removal.com/services/residential/storage-unit-cleanout' },
 }
