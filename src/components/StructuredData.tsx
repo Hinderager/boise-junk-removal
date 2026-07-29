@@ -36,7 +36,7 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
     ],
     "serviceType": ["Junk Removal", "Furniture Removal", "Appliance Removal", "Yard Waste Removal", "Construction Debris Removal"],
     "openingHoursSpecification": [{ "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"], "opens": "08:00", "closes": "21:00" }],
-    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "150" }
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "392" }
   }
 
   const serviceSchema = {
