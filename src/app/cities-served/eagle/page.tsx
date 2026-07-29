@@ -8,7 +8,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Junk Removal Eagle Idaho | Boise Junk Removal',
+  title: 'Junk Removal Eagle Idaho',
   description: 'Professional junk removal in Eagle, Idaho. Same-day service, upfront pricing, eco-friendly disposal. Serving Downtown Eagle, North Eagle, Eagle Foothills and more. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-junk-removal.com/cities-served/eagle' },
 }

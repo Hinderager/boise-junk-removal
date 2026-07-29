@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Exercise Equipment Removal Boise Idaho | Boise Junk Removal',
+  title: 'Exercise Equipment Removal Boise Idaho',
   description: 'Treadmills, ellipticals, weight sets, and gym equipment removed. Professional junk removal in Boise and the Treasure Valley. Free estimates. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-junk-removal.com/services/specialty/treadmill-removal' },
 }

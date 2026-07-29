@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Junk Removal North End Boise | Boise Junk Removal',
+  title: 'Junk Removal North End Boise',
   description: 'Junk Removal services in North End, Boise, Idaho. Local team, fair prices, same-day service available. Call (208) 943-5231.',
   keywords: ['junk removal North End', 'junk removal North End Boise', 'North End boise junk removal'],
   alternates: {

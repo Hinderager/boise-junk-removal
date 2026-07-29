@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Hot Tub Removal Boise Idaho | Boise Junk Removal',
+  title: 'Hot Tub Removal Boise Idaho',
   description: 'Hot tubs and spas disconnected, demolished if needed, and hauled away. Professional junk removal in Boise and the Treasure Valley. Free estimates. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-junk-removal.com/services/specialty/hot-tub-removal' },
 }

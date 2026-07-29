@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Furniture Removal Boise | Boise Junk Removal',
+  title: 'Furniture Removal Boise',
   description: 'Old furniture hauled away from homes and businesses. Serving Boise, Meridian, Nampa, and the Treasure Valley. Free estimates. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-junk-removal.com/services/furniture-removal' },
 }

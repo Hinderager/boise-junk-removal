@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Junk Removal Downtown Boise Boise | Boise Junk Removal',
+  title: 'Junk Removal Downtown Boise Boise',
   description: 'Junk Removal services in Downtown Boise, Boise, Idaho. Local team, fair prices, same-day service available. Call (208) 943-5231.',
   keywords: ['junk removal Downtown Boise', 'junk removal Downtown Boise Boise', 'Downtown Boise boise junk removal'],
   alternates: {

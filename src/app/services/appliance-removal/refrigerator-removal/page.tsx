@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Refrigerator Removal Boise Idaho | Boise Junk Removal',
+  title: 'Refrigerator Removal Boise Idaho',
   description: 'Refrigerators, freezers, and mini-fridges removed with proper refrigerant handling. Professional junk removal in Boise and the Treasure Valley. Free estimates. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-junk-removal.com/services/appliance-removal/refrigerator-removal' },
 }

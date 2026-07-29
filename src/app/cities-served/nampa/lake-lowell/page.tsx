@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Junk Removal Lake Lowell Nampa | Boise Junk Removal',
+  title: 'Junk Removal Lake Lowell Nampa',
   description: 'Junk Removal services in Lake Lowell, Nampa, Idaho. Local team, fair prices, same-day service available. Call (208) 943-5231.',
   keywords: ['junk removal Lake Lowell', 'junk removal Lake Lowell Nampa', 'Lake Lowell nampa junk removal'],
   alternates: {

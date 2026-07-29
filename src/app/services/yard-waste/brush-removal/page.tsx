@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Brush & Branch Removal Boise Idaho | Boise Junk Removal',
+  title: 'Brush & Branch Removal Boise Idaho',
   description: 'Tree branches, shrub trimmings, and brush piles cleared from your property. Professional junk removal in Boise and the Treasure Valley. Free estimates. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-junk-removal.com/services/yard-waste/brush-removal' },
 }

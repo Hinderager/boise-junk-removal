@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Tire Removal Boise Idaho | Boise Junk Removal',
+  title: 'Tire Removal Boise Idaho',
   description: 'Old tires hauled away and properly disposed of or recycled. Professional junk removal in Boise and the Treasure Valley. Free estimates. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-junk-removal.com/services/specialty/tire-removal' },
 }

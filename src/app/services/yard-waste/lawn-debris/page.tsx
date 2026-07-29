@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Lawn Debris Removal Boise Idaho | Boise Junk Removal',
+  title: 'Lawn Debris Removal Boise Idaho',
   description: 'Grass clippings, leaves, and general yard waste removed. Professional junk removal in Boise and the Treasure Valley. Free estimates. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-junk-removal.com/services/yard-waste/lawn-debris' },
 }

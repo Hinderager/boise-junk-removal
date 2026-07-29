@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Yard Waste Removal Garden City Idaho | Boise Junk Removal',
+  title: 'Yard Waste Removal Garden City Idaho',
   description: 'Professional yard waste removal in Garden City, Idaho. Same-day service, upfront pricing. Call (208) 943-5231 for a free estimate.',
   alternates: { canonical: 'https://boise-junk-removal.com/cities-served/garden-city/yard-waste' },
 }

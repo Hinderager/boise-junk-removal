@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { Users, Award, Shield, Heart, Briefcase } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'About Us | Boise Junk Removal',
+  title: 'About Us',
   description: 'Learn about Boise Junk Removal. Locally owned junk removal serving Boise and the Treasure Valley. Licensed, insured, and committed to our community.',
   alternates: { canonical: 'https://boise-junk-removal.com/about-us' },
 }

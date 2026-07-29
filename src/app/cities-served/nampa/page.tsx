@@ -8,7 +8,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Junk Removal Nampa Idaho | Boise Junk Removal',
+  title: 'Junk Removal Nampa Idaho',
   description: 'Professional junk removal in Nampa, Idaho. Same-day service, upfront pricing, eco-friendly disposal. Serving Downtown Nampa, North Nampa, South Nampa and more. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-junk-removal.com/cities-served/nampa' },
 }

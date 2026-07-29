@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Garage Cleanout Kuna Idaho | Boise Junk Removal',
+  title: 'Garage Cleanout Kuna Idaho',
   description: 'Professional garage cleanout in Kuna, Idaho. Same-day service, upfront pricing. Call (208) 943-5231 for a free estimate.',
   alternates: { canonical: 'https://boise-junk-removal.com/cities-served/kuna/garage-cleanout' },
 }

@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Garage Cleanout Nampa Idaho | Boise Junk Removal',
+  title: 'Garage Cleanout Nampa Idaho',
   description: 'Professional garage cleanout in Nampa, Idaho. Same-day service, upfront pricing. Call (208) 943-5231 for a free estimate.',
   alternates: { canonical: 'https://boise-junk-removal.com/cities-served/nampa/garage-cleanout' },
 }

@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Attic Cleanout Boise Idaho | Boise Junk Removal',
+  title: 'Attic Cleanout Boise Idaho',
   description: 'Safe removal of items from attics and crawl spaces. We handle the heavy lifting in tight spaces. Professional junk removal in Boise and the Treasure Valley. Free estimates. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-junk-removal.com/services/residential/attic-cleanout' },
 }

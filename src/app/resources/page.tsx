@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { HelpCircle, DollarSign, Recycle, Lightbulb } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Junk Removal Resources | Boise Junk Removal',
+  title: 'Junk Removal Resources',
   description: 'Helpful resources about junk removal, pricing, recycling, and decluttering tips from Boise Junk Removal.',
   alternates: { canonical: 'https://boise-junk-removal.com/resources' },
 }

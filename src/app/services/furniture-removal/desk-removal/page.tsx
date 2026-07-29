@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Desk & Office Furniture Boise Idaho | Boise Junk Removal',
+  title: 'Desk & Office Furniture Boise Idaho',
   description: 'Desks, filing cabinets, chairs, and conference tables hauled away. Professional junk removal in Boise and the Treasure Valley. Free estimates. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-junk-removal.com/services/furniture-removal/desk-removal' },
 }

@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Washer & Dryer Removal Boise Idaho | Boise Junk Removal',
+  title: 'Washer & Dryer Removal Boise Idaho',
   description: 'Washing machines and dryers disconnected and hauled away. Professional junk removal in Boise and the Treasure Valley. Free estimates. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-junk-removal.com/services/appliance-removal/washer-dryer-removal' },
 }

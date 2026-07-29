@@ -5,7 +5,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Junk Removal Service Areas | Boise Junk Removal',
+  title: 'Junk Removal Service Areas',
   description: 'Professional junk removal serving Boise, Meridian, Nampa, Caldwell, Eagle, and the Treasure Valley. Same-day service available. Call (208) 943-5231.',
   alternates: { canonical: 'https://boise-junk-removal.com/cities-served' },
 }

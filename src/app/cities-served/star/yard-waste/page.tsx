@@ -6,7 +6,7 @@ import { QuickQuoteBar } from '@/components/QuickQuoteBar'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Yard Waste Removal Star Idaho | Boise Junk Removal',
+  title: 'Yard Waste Removal Star Idaho',
   description: 'Professional yard waste removal in Star, Idaho. Same-day service, upfront pricing. Call (208) 943-5231 for a free estimate.',
   alternates: { canonical: 'https://boise-junk-removal.com/cities-served/star/yard-waste' },
 }

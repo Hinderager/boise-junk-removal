@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Frequently Asked Questions | Boise Junk Removal',
+  title: 'Frequently Asked Questions',
   description: 'Frequently Asked Questions for junk removal services in Boise and the Treasure Valley.',
   alternates: { canonical: 'https://boise-junk-removal.com/resources/faq' },
 }

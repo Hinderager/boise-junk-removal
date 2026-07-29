@@ -3,7 +3,7 @@ import { VisibleBreadcrumb } from '@/components/VisibleBreadcrumb'
 import { Phone, MapPin, Clock } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Contact Us | Boise Junk Removal',
+  title: 'Contact Us',
   description: 'Contact Top Shelf Junk Removal for junk removal in Boise and the Treasure Valley. Call (208) 943-5231 or request a free quote online.',
   alternates: { canonical: 'https://boise-junk-removal.com/contact' },
 }
