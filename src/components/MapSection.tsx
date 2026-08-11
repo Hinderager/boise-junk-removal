@@ -46,7 +46,7 @@ export function MapSection() {
             </div>
             <div className="flex items-start gap-4">
               <div className="w-12 h-12 bg-gradient-to-br from-[#0b7fb6] to-[#10477d] rounded-full flex items-center justify-center flex-shrink-0"><Clock className="w-6 h-6 text-white" /></div>
-              <div><h4 className="font-semibold text-gray-900 mb-1">Hours</h4><p className="text-gray-700">Monday - Saturday: 8:00 AM - 9:00 PM</p><p className="text-gray-700">Sunday: 12:00 PM - 9:00 PM</p></div>
+              <div><h4 className="font-semibold text-gray-900 mb-1">Hours</h4><p className="text-gray-700">Monday - Sunday: 8:00 AM - 9:00 PM</p></div>
             </div>
             <div className="pt-6 border-t border-gray-200">
               <h4 className="font-semibold text-gray-900 mb-3">Service Areas</h4>

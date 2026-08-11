@@ -6,15 +6,6 @@ const cityCoordinates: Record<string, { lat: number; lng: number }> = {
   'Eagle': { lat: 43.6957, lng: -116.3535 },
 }
 
-const faqData = [
-  { question: 'How much does junk removal cost in Boise?', answer: 'Cost depends on volume (single item vs. truck load), the type of items (heavy items like hot tubs or pianos take more labor), accessibility, and whether anything needs special disposal. Single-item pickups are the easiest end of the range; full truck loads are the most involved. We have completed over 5,000 junk removal jobs in the Treasure Valley and provide free quotes.' },
-  { question: 'What items do you take?', answer: 'We take furniture, appliances, electronics, yard waste, construction debris, mattresses, hot tubs, and more. Per the Idaho DEQ, diverting more waste from landfills saves Idaho millions annually. We recycle or donate 65% of everything we collect.' },
-  { question: 'Do you offer same-day junk removal?', answer: 'Yes! We offer same-day and next-day junk removal. Based on our service records, 78% of same-day requests in Boise are completed within 3 hours of the initial call. Call by noon for same-day service.' },
-  { question: 'What happens to the items you remove?', answer: 'We donate usable items to local charities including Goodwill, Salvation Army, and Idaho Youth Ranch. According to EPA data, recycling and reuse activities in the US account for 681,000 jobs. We recycle metals, electronics, and other materials, with only 30% going to landfill.' },
-  { question: 'Do I need to be home?', answer: 'Not necessarily. Based on customer surveys, 40% of our clients prefer we complete the work while they are away. As long as items are accessible and payment is arranged, we can handle it.' },
-  { question: 'What areas do you serve?', answer: 'We serve Boise, Meridian, Nampa, Caldwell, Eagle, and surrounding Treasure Valley communities. The Boise metro area population exceeds 770,000 according to 2023 Census estimates, making us the fastest growing metro in Idaho.' }
-]
-
 export function StructuredData({ city = 'Boise' }: { city?: string }) {
   const coords = cityCoordinates[city] || cityCoordinates['Boise']
 
@@ -35,7 +26,7 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
       { "@type": "City", "name": "Eagle", "addressRegion": "ID" }
     ],
     "serviceType": ["Junk Removal", "Furniture Removal", "Appliance Removal", "Yard Waste Removal", "Construction Debris Removal"],
-    "openingHoursSpecification": [{ "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"], "opens": "08:00", "closes": "21:00" }],
+    "openingHoursSpecification": [{ "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], "opens": "08:00", "closes": "21:00" }],
     "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "392" }
   }
 
@@ -48,17 +39,11 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
     "description": `Professional junk removal and hauling services in ${city} and the Treasure Valley.`
   }
 
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": faqData.map((faq) => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
-  }
 
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
     </>
   )
 }
